@@ -1,7 +1,5 @@
 // eslint-disable-next-line @next/next/no-document-import-in-page
-import Document, { Main, NextScript } from 'next/document'
-// eslint-disable-next-line @next/next/no-head-import-in-document
-import { Head } from 'next/head'
+import Document, { Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
