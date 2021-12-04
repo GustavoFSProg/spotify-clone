@@ -106,6 +106,15 @@ function Sidebar() {
             <RssIcon width="25" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '19px' }}>Your Episodes</p>
           </Buttom>
+          <hr className="border-t-[0.1px] border-gray-900" />
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
+          <p style={{ color: 'white' }}>Playlists names...</p>
         </div>
       </Container>
     </>
