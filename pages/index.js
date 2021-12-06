@@ -5,10 +5,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container} style={{ margin: 0, padding: 0 }}>
+    <div className={styles.container} style={{ margin: 0, overflow: 'hidden', padding: 0 }}>
       <main>
         <Sidebar />
         {/* Center */}
+        <div style={{ height: ' 200vh' }}>asfasdf</div>
       </main>
     </div>
   )

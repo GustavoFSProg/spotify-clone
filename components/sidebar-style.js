@@ -11,6 +11,7 @@ export const Buttom = styled.button`
   color: white;
   margin: 0;
   padding: 0;
+  font-size: 13px;
 
   :hover {
     background: lightgrey;
@@ -19,8 +20,20 @@ export const Buttom = styled.button`
 `
 export const Container = styled.div`
   background: black;
-  width: 18%;
+  width: 20%;
   height: 100vh;
   display: flex;
   justify-content: center;
+`
+
+export const PlayLists = styled.p`
+  cursor: pointer;
+  color: white;
+  margin-top: 25px;
+  font-size: 14px;
+
+  :hover {
+    color: yellow;
+    transition: 0.5s;
+  }
 `

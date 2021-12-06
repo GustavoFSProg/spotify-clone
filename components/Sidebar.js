@@ -7,16 +7,16 @@ import {
   RssIcon,
 } from '@heroicons/react/outline'
 // import '../styles/Sidebar.module.css'
-import { Buttom, Container } from './sidebar-style'
+import { Buttom, Container, PlayLists } from './sidebar-style'
 // import Home from '../pages'
 
 function Sidebar() {
   return (
     <>
       <Container>
-        <div style={{ marginTop: '20px' }}>
+        <div style={{ marginTop: '20px', marginBottom: '50px' }}>
           <Buttom onClick={() => alert('Go to Home')}>
-            <HomeIcon width="25" />
+            <HomeIcon width="22" />
             <p
               style={{
                 fontSize: '15px',
@@ -41,7 +41,7 @@ function Sidebar() {
               cursor: 'pointer',
             }}
           >
-            <SearchIcon width="25" />
+            <SearchIcon width="22" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>Search</p>
           </Buttom>
 
@@ -56,7 +56,7 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <LibraryIcon width="25" />
+            <LibraryIcon width="22" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '20px' }}>Your Libreary</p>
           </Buttom>
 
@@ -71,7 +71,7 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <PlusCircleIcon width="25" />
+            <PlusCircleIcon width="22" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>
               Create PlayList{' '}
             </p>
@@ -88,7 +88,7 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <HeartIcon width="25" />
+            <HeartIcon width="22" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>Liked Songs</p>
           </Buttom>
 
@@ -103,18 +103,20 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <RssIcon width="25" />
+            <RssIcon width="22" />
             <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '19px' }}>Your Episodes</p>
           </Buttom>
+          <div style={{ marginBottom: '28px' }} />
+
           <hr className="border-t-[0.1px] border-gray-900" />
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
-          <p style={{ color: 'white' }}>Playlists names...</p>
+          <PlayLists>Playlists names...</PlayLists>
+          <PlayLists>Melhores.</PlayLists>
+          <PlayLists>Playlists names...</PlayLists>
+          <PlayLists>Metal</PlayLists>
+          <PlayLists>Playlists names...</PlayLists>
+          <PlayLists>Rock.</PlayLists>
+          <PlayLists>Playlists names...</PlayLists>
+          <PlayLists>Playlists names...</PlayLists>
         </div>
       </Container>
     </>
