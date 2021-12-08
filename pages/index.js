@@ -5,12 +5,26 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container} style={{ margin: 0, overflow: 'hidden', padding: 0 }}>
-      <main>
+    <div className={styles.container} style={{ margin: 0, padding: 0 }}>
+      <main style={{ display: 'flex', flexDirection: 'row' }}>
         <Sidebar />
         {/* Center */}
-        <div style={{ height: ' 200vh' }}>asfasdf</div>
       </main>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          // marginTop: '-16px',
+          height: '110vh',
+          color: 'yellow',
+          background: '#0d0d0d',
+        }}
+      >
+        <p>Testing Spotfy</p>
+        <br />
+        <p>my Spotify</p>
+      </div>
     </div>
   )
 }

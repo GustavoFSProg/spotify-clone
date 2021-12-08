@@ -24,6 +24,8 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
+
+  position: fixed;
 `
 
 export const PlayLists = styled.p`
