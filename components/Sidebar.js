@@ -6,9 +6,7 @@ import {
   PlusCircleIcon,
   RssIcon,
 } from '@heroicons/react/outline'
-// import '../styles/Sidebar.module.css'
 import { Buttom, Container, PlayLists } from './sidebar-style'
-// import Home from '../pages'
 
 function Sidebar() {
   return (

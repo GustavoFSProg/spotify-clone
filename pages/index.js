@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
 
@@ -8,14 +7,12 @@ export default function Home() {
     <div className={styles.container} style={{ margin: 0, padding: 0 }}>
       <main style={{ display: 'flex', flexDirection: 'row' }}>
         <Sidebar />
-        {/* Center */}
       </main>
       <div
         style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          // marginTop: '-16px',
           height: '110vh',
           color: 'yellow',
           background: '#0d0d0d',
