@@ -1,9 +1,20 @@
 // import NextAuth from 'next-auth'
 // import SpotfyProvider from 'next-auth/providers/spotfy'
-// import { LOGIN_URL } from '../../../lib/spotify'
+// import { spotifyApi, LOGIN_URL } from '../../../lib/spotify'
 
 // async function refreshAccessToken(token) {
 //   try {
+//     spotifyApi.setAccessToken(token.accessToken)
+//     spotifyApi.setRefreshToken(token.RefreshToken)
+
+//     const { body: refreshedToken } = await spotifyApi.refreshAccessToken()
+//     console.log(`Refresh token ${refreshedToken}`)
+
+//     return {
+//       ...token,
+//       accessToken: refreshedToken.access_token,
+//       accessTokenExpires: Date.now + refreshAccessToken.expires_in * 1000,
+//     }
 //   } catch (error) {
 //     console.error(error)
 //     return {

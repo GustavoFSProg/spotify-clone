@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-title-in-document-head */
 // eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, { Head, Main, NextScript } from 'next/document'
 

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
+import NLW from '../public/nlw.png'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <p>Testing Spotfy</p>
         <br />
         <p>my Spotify</p>
+        <Image src={NLW} alt="NLW" width="800" height="660" />
       </div>
     </div>
   )
