@@ -18,11 +18,10 @@ export default function Home() {
           height: '110vh',
           color: 'yellow',
           background: '#0d0d0d',
+          marginLeft: '190px',
         }}
       >
-        <p>Testing Spotfy</p>
         <br />
-        <p>my Spotify</p>
         <Image src={NLW} alt="NLW" width="800" height="660" />
       </div>
     </div>
