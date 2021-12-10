@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
 import Album from '../public/album-image.jpg'
+import Play from '../public/play-button.png'
 import Image from 'next/image'
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
       <div
         style={{
           display: 'flex',
-          // justifyContent: 'center',
-          // alignItems: 'center',
+          justifyContent: 'center',
+          alignItems: 'center',
           // height: '110vh',
           color: 'yellow',
           // background: '#0d0d0d',
@@ -24,11 +25,30 @@ export default function Home() {
           background: 'linear-gradient(to bottom, #330000 30%, #0d0d0d 65%)',
         }}
       >
+        {/* <div>
+          <div
+            style={{
+              borderRadius: '100%',
+              background: 'gray',
+              opacity: '0.6',
+              height: '30px',
+              width: '27px',
+              textAlign: 'center',
+              fontSize: '28px',
+              marginTop: '-380px',
+              marginLeft: '100px',
+              color: 'white',
+            }}
+          >
+            {'<'}
+          </div>
+        </div> */}
+
         <div
           style={{
             display: 'flex',
-            marginTop: '90px',
-            marginLeft: '100px',
+            marginTop: '-423px',
+            marginLeft: '-40px',
             width: '520px',
             height: '220px',
           }}
@@ -71,7 +91,9 @@ export default function Home() {
           </h1>
         </div>
 
-        <br />
+        {/* <div style={{ marginLeft: '-200px' }}>
+          <Image src={Play} alt="play-button" width="58" height="55" />
+        </div> */}
       </div>
     </div>
   )
