@@ -44,6 +44,8 @@ export const ScrollBar = styled.div`
   overflow-y: scroll;
   width: 248px;
   height: 600px;
+  margin-left: -50px;
+
   /* transition: red ease 5.8s; */
 
   /* width */

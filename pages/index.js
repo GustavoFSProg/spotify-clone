@@ -15,14 +15,16 @@ export default function Home() {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '110vh',
+          // height: '110vh',
           color: 'yellow',
-          background: '#0d0d0d',
+          // background: '#0d0d0d',
           marginLeft: '190px',
+          height: 'inherit',
+          width: 'inherit',
+          background: 'linear-gradient(to bottom, #330000 30%, #0d0d0d 65%)',
         }}
       >
         <br />
-        <Image src={NLW} alt="NLW" width="800" height="660" />
       </div>
     </div>
   )

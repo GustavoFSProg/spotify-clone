@@ -158,26 +158,29 @@ function Sidebar() {
 
           <hr style={{ border: '1px solid #333333', width: '78%', marginLeft: '5px' }} />
           <ScrollBar>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Melhores.</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Metal</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Rock.</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
-            <PlayLists>Playlists names...</PlayLists>
+            <div style={{ marginLeft: '55px' }}>
+              <PlayLists>Melhores.</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Metal</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Rock.</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+              <PlayLists>Playlists names...</PlayLists>
+
+              <PlayLists>Playlists names...</PlayLists>
+            </div>
           </ScrollBar>
         </div>
       </Container>
