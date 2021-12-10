@@ -36,6 +36,41 @@ export default function Home() {
           <Image src={Album} alt="Logo" width="208" height="37" />
         </div>
 
+        <div
+          style={{
+            display: 'flex',
+            marginTop: '-370px',
+            marginLeft: '-290px',
+            width: '620px',
+            // height: '220px',
+            alignItems: 'center',
+            // justifyContent: 'center',
+          }}
+        >
+          <h1 style={{ fontSize: '60px', color: 'white' }}>
+            <span style={{ fontSize: '10px', color: 'white' }}>LISTA DE REPRODUÇÃO</span>
+            <br />
+            Chalice of Thagirion
+            <br />
+            <div style={{ marginTop: '-28px', marginLeft: '3px' }}>
+              <span style={{ fontSize: '14px', color: 'white' }}>
+                Gustavo Sohne{' '}
+                <span
+                  style={{
+                    color: '#b3b3b3',
+                    fontSize: '13px',
+                    marginLeft: '4px',
+                    fontWeight: 'normal',
+                  }}
+                >
+                  {' '}
+                  - 11 músicas, 56 min 55 s
+                </span>
+              </span>
+            </div>
+          </h1>
+        </div>
+
         <br />
       </div>
     </div>
