@@ -8,13 +8,13 @@ export const Buttom = styled.button`
   align-items: center;
   cursor: pointer;
   background: none;
-  color: white;
+  color: #bfbfbf;
   margin: 0;
   padding: 0;
   font-size: 13px;
 
   :hover {
-    background: lightgrey;
+    color: white;
     transition: 0.7s;
   }
 `
@@ -30,9 +30,10 @@ export const Container = styled.div`
 
 export const PlayLists = styled.p`
   cursor: pointer;
-  color: white;
+  color: #999999;
   margin-top: 25px;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 13.7px;
 
   :hover {
     color: yellow;

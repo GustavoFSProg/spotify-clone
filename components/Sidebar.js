@@ -1,3 +1,7 @@
+import Image from 'next/image'
+// import Logo from '../logo.png'
+import Logo from './logo-branco.png'
+
 import {
   HomeIcon,
   SearchIcon,
@@ -12,16 +16,18 @@ function Sidebar() {
   return (
     <>
       <Container>
-        <div style={{ marginTop: '20px', marginBottom: '50px' }}>
+        <div style={{ marginTop: '20px', marginLeft: '45px', marginBottom: '50px' }}>
+          <div style={{ marginTop: '10px', marginBottom: '18px' }}>
+            <Image src={Logo} alt="Logo" width="128" height="37" />
+          </div>
           <Buttom onClick={() => alert('Go to Home')}>
-            <HomeIcon width="22" />
+            <HomeIcon width="26" />
             <p
               style={{
-                fontSize: '15px',
-
+                fontSize: '13.4px',
+                fontWeight: 'bold',
                 marginTop: '20px',
-
-                marginLeft: '10px',
+                marginLeft: '16px',
               }}
             >
               Home
@@ -39,39 +45,16 @@ function Sidebar() {
               cursor: 'pointer',
             }}
           >
-            <SearchIcon width="22" />
-            <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>Search</p>
-          </Buttom>
-
-          <Buttom
-            onClick={() => alert('Go to Home')}
-            style={{
-              width: '160px',
-              display: 'flex',
-              cursor: 'pointer',
-              border: 'none',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <LibraryIcon width="22" />
-            <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '20px' }}>Your Libreary</p>
-          </Buttom>
-
-          <Buttom
-            onClick={() => alert('Go to Home')}
-            style={{
-              width: '190px',
-              display: 'flex',
-              cursor: 'pointer',
-              border: 'none',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <PlusCircleIcon width="22" />
-            <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>
-              Create PlayList{' '}
+            <SearchIcon width="26" />
+            <p
+              style={{
+                fontSize: '13.4px',
+                fontWeight: 'bold',
+                marginTop: '20px',
+                marginLeft: '16px',
+              }}
+            >
+              Search
             </p>
           </Buttom>
 
@@ -86,8 +69,42 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <HeartIcon width="22" />
-            <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '18px' }}>Liked Songs</p>
+            <LibraryIcon width="26" />
+            <p
+              style={{
+                // fontSize: '15px', marginLeft: '10px', marginTop: '20px'
+                fontSize: '13.4px',
+                fontWeight: 'bold',
+                marginTop: '20px',
+                marginLeft: '16px',
+              }}
+            >
+              Your Libreary
+            </p>
+          </Buttom>
+
+          <Buttom
+            onClick={() => alert('Go to Home')}
+            style={{
+              width: '190px',
+              display: 'flex',
+              cursor: 'pointer',
+              border: 'none',
+              flexDirection: 'row',
+              alignItems: 'center',
+            }}
+          >
+            <PlusCircleIcon width="26" />
+            <p
+              style={{
+                fontSize: '13.4px',
+                fontWeight: 'bold',
+                marginTop: '20px',
+                marginLeft: '16px',
+              }}
+            >
+              Create PlayList
+            </p>
           </Buttom>
 
           <Buttom
@@ -101,12 +118,45 @@ function Sidebar() {
               alignItems: 'center',
             }}
           >
-            <RssIcon width="22" />
-            <p style={{ fontSize: '15px', marginLeft: '10px', marginTop: '19px' }}>Your Episodes</p>
+            <HeartIcon width="26" />
+            <p
+              style={{
+                fontSize: '13.4px',
+                fontWeight: 'bold',
+                marginTop: '20px',
+                marginLeft: '16px',
+              }}
+            >
+              Liked Songs
+            </p>
+          </Buttom>
+
+          <Buttom
+            onClick={() => alert('Go to Home')}
+            style={{
+              width: '160px',
+              display: 'flex',
+              cursor: 'pointer',
+              border: 'none',
+              flexDirection: 'row',
+              alignItems: 'center',
+            }}
+          >
+            <RssIcon width="26" />
+            <p
+              style={{
+                fontSize: '13.4px',
+                fontWeight: 'bold',
+                marginTop: '20px',
+                marginLeft: '16px',
+              }}
+            >
+              Your Episodes
+            </p>
           </Buttom>
           <div style={{ marginBottom: '28px' }} />
 
-          <hr className="border-t-[0.1px] border-gray-900" />
+          <hr style={{ border: '1px solid #333333', width: '78%', marginLeft: '5px' }} />
           <ScrollBar>
             <PlayLists>Playlists names...</PlayLists>
             <PlayLists>Melhores.</PlayLists>
