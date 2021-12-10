@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
-import NLW from '../public/nlw.png'
+import Album from '../public/album-image.jpg'
 import Image from 'next/image'
 
 export default function Home() {
@@ -13,8 +13,8 @@ export default function Home() {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
+          // justifyContent: 'center',
+          // alignItems: 'center',
           // height: '110vh',
           color: 'yellow',
           // background: '#0d0d0d',
@@ -24,6 +24,18 @@ export default function Home() {
           background: 'linear-gradient(to bottom, #330000 30%, #0d0d0d 65%)',
         }}
       >
+        <div
+          style={{
+            display: 'flex',
+            marginTop: '90px',
+            marginLeft: '100px',
+            width: '520px',
+            height: '220px',
+          }}
+        >
+          <Image src={Album} alt="Logo" width="208" height="37" />
+        </div>
+
         <br />
       </div>
     </div>
