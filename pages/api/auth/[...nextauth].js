@@ -14,6 +14,7 @@
 //       ...token,
 //       accessToken: refreshedToken.access_token,
 //       accessTokenExpires: Date.now + refreshAccessToken.expires_in * 1000,
+//       refreshToken: refershedToken.refresh_token ?? token.refreshToken,
 //     }
 //   } catch (error) {
 //     console.error(error)
@@ -59,6 +60,14 @@
 //       console.log('ACCESS TOKEN HAS EXPIRES!!')
 
 //       return await refreshAccessToken(token)
+//     },
+
+//     async session({ session, token }) {
+//       session.user.accessToken = token.accessToken
+//       session.user.refreshToken = token.refreshToken
+//       session.user.username = token.username
+
+//       return session
 //     },
 //   },
 // })

@@ -6,7 +6,7 @@ import {
   PlusCircleIcon,
   RssIcon,
 } from '@heroicons/react/outline'
-import { Buttom, Container, PlayLists } from './sidebar-style'
+import { Buttom, ScrollBar, Container, PlayLists } from './sidebar-style'
 
 function Sidebar() {
   return (
@@ -107,14 +107,28 @@ function Sidebar() {
           <div style={{ marginBottom: '28px' }} />
 
           <hr className="border-t-[0.1px] border-gray-900" />
-          <PlayLists>Playlists names...</PlayLists>
-          <PlayLists>Melhores.</PlayLists>
-          <PlayLists>Playlists names...</PlayLists>
-          <PlayLists>Metal</PlayLists>
-          <PlayLists>Playlists names...</PlayLists>
-          <PlayLists>Rock.</PlayLists>
-          <PlayLists>Playlists names...</PlayLists>
-          <PlayLists>Playlists names...</PlayLists>
+          <ScrollBar>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Melhores.</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Metal</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Rock.</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+            <PlayLists>Playlists names...</PlayLists>
+          </ScrollBar>
         </div>
       </Container>
     </>

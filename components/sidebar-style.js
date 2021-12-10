@@ -39,3 +39,29 @@ export const PlayLists = styled.p`
     transition: 0.5s;
   }
 `
+export const ScrollBar = styled.div`
+  overflow-y: scroll;
+  width: 248px;
+  height: 600px;
+  /* transition: red ease 5.8s; */
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d4d4d;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8c8c8c;
+  }
+`
