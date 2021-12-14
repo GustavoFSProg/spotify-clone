@@ -6,11 +6,11 @@ export const ContainerImage = styled.div`
   margin-top: -492px;
   transition: ease 0.9s;
   transform: scale(1);
-  width: 100px;
+  width: 65px;
   border-radius: 100%;
 
   :hover {
-    width: 65px;
+    width: 70px;
     background: green;
     transform: scale(1);
   }
