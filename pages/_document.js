@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>My page</title>
+          <title>Sptfy - Clone</title>
         </Head>
         <body>
           <Main />
