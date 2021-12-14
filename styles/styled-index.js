@@ -10,8 +10,7 @@ export const ContainerImage = styled.div`
   border-radius: 100%;
 
   :hover {
-    width: 70px;
-    background: green;
+    width: 80px;
     transform: scale(1);
   }
 `
