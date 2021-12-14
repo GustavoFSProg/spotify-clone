@@ -25,75 +25,59 @@ export default function Home() {
           background: 'linear-gradient(to bottom, #330000 30%, #0d0d0d 65%)',
         }}
       >
-        {/* <div>
+        <div>
           <div
             style={{
-              borderRadius: '100%',
-              background: 'gray',
-              opacity: '0.6',
-              height: '30px',
-              width: '27px',
-              textAlign: 'center',
-              fontSize: '28px',
-              marginTop: '-380px',
-              marginLeft: '100px',
-              color: 'white',
+              display: 'flex',
+              marginTop: '-320px',
+              width: '520px',
+              height: '220px',
+              marginLeft: '-32px',
             }}
           >
-            {'<'}
+            <Image src={Album} alt="Logo" width="210" height="39" />
           </div>
-        </div> */}
 
-        <div
-          style={{
-            display: 'flex',
-            marginTop: '-423px',
-            marginLeft: '-40px',
-            width: '520px',
-            height: '220px',
-          }}
-        >
-          <Image src={Album} alt="Logo" width="208" height="37" />
-        </div>
-
-        <div
-          style={{
-            display: 'flex',
-            marginTop: '-370px',
-            marginLeft: '-290px',
-            width: '620px',
-            // height: '220px',
-            alignItems: 'center',
-            // justifyContent: 'center',
-          }}
-        >
-          <h1 style={{ fontSize: '60px', color: 'white' }}>
-            <span style={{ fontSize: '10px', color: 'white' }}>LISTA DE REPRODUÇÃO</span>
-            <br />
-            Chalice of Thagirion
-            <br />
-            <div style={{ marginTop: '-28px', marginLeft: '3px' }}>
-              <span style={{ fontSize: '14px', color: 'white' }}>
-                Gustavo Sohne{' '}
-                <span
-                  style={{
-                    color: '#b3b3b3',
-                    fontSize: '13px',
-                    marginLeft: '4px',
-                    fontWeight: 'normal',
-                  }}
-                >
-                  {' '}
-                  - 11 músicas, 56 min 55 s
+          <div
+            style={{
+              display: 'flex',
+              marginTop: '-215px',
+              marginLeft: '198px',
+              width: '620px',
+              // height: '220px',
+              alignItems: 'center',
+              // justifyContent: 'center',
+            }}
+          >
+            <h1 style={{ fontSize: '60px', color: 'white' }}>
+              <span style={{ fontSize: '10px', color: 'white' }}>LISTA DE REPRODUÇÃO</span>
+              <br />
+              Chalice of Thagirion
+              <br />
+              <div style={{ marginTop: '-28px', marginLeft: '3px' }}>
+                <span style={{ fontSize: '14px', color: 'white' }}>
+                  Gustavo Sohne{' '}
+                  <span
+                    style={{
+                      color: '#b3b3b3',
+                      fontSize: '13px',
+                      marginLeft: '4px',
+                      fontWeight: 'normal',
+                    }}
+                  >
+                    {' '}
+                    - 11 músicas, 56 min 55 s
+                  </span>
                 </span>
-              </span>
-            </div>
-          </h1>
+              </div>
+            </h1>
+            {/* <div style={{ marginTop: '10px' }}>
+          </div> */}
+          </div>
         </div>
-
-        {/* <div style={{ marginLeft: '-200px' }}>
-          <Image src={Play} alt="play-button" width="58" height="55" />
-        </div> */}
+      </div>
+      <div style={{ marginLeft: '293px', marginTop: '-492px' }}>
+        <Image style={{}} src={Play} alt="play-button" width="72" height="66" />
       </div>
     </div>
   )
