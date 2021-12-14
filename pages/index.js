@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Album from '../public/album-image.jpg'
 import Play from '../public/play-button.png'
 import Image from 'next/image'
+import { ContainerImage } from '../styles/styled-index'
 
 export default function Home() {
   return (
@@ -76,9 +77,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div style={{ marginLeft: '293px', marginTop: '-492px' }}>
-        <Image style={{}} src={Play} alt="play-button" width="72" height="66" />
-      </div>
+      <ContainerImage>
+        <Image src={Play} alt="play-button" width="72" height="66" />
+      </ContainerImage>
     </div>
   )
 }
