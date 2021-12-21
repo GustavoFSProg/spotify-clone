@@ -106,12 +106,12 @@ export default function Home() {
             <th style={{ fontWeight: 'normal' }} width="310">
               DATA ADICIONADA
             </th>
-            <tr>
-              <th colSpan="5">
-                <hr width="965" style={{ border: '0.1px solid #262626' }} />
-              </th>
-            </tr>
           </thead>
+          <tr>
+            <td colSpan="5">
+              <hr width="965" colSpan="5" style={{ border: '0.1px solid #262626' }} />
+            </td>
+          </tr>
         </table>
       </ContainerImage>
     </div>
