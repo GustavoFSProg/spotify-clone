@@ -79,6 +79,35 @@ export default function Home() {
       </div>
       <ContainerImage>
         <Image src={Play} alt="play-button" width="72" height="66" />
+        <div
+          style={{
+            color: '#b3b3b3',
+            letterSpacing: '3px',
+            fontSize: '34px',
+            marginTop: '-62px',
+            marginLeft: '90px',
+          }}
+        >
+          <span>...</span>
+        </div>
+        <table width="980px" style={{ color: '#b3b3b3', marginTop: '50px' }}>
+          <thead
+            style={{ color: '#b3b3b3', width: '100%', fontSize: '13px', fontWeight: 'normal' }}
+          >
+            <th width="40" style={{ fontWeight: 'normal' }}>
+              #
+            </th>
+            <th style={{ fontWeight: 'normal' }} width="310">
+              TÍTULO
+            </th>
+            <th style={{ fontWeight: 'normal' }} width="310">
+              ÁLBUM
+            </th>
+            <th style={{ fontWeight: 'normal' }} width="310">
+              DATA ADICIONADA
+            </th>
+          </thead>
+        </table>
       </ContainerImage>
     </div>
   )
