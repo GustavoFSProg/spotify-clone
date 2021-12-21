@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
 import Album from '../public/album-image.jpg'
-import Clock from '../public/clok-4.png'
+import Clock from '../public/circulo.png'
 import Play from '../public/play-button.png'
 import Image from 'next/image'
 import { ContainerImage } from '../styles/styled-index'
@@ -108,7 +108,7 @@ export default function Home() {
               DATA ADICIONADA
             </th>
             <th style={{ fontWeight: 'normal', textAlign: 'left' }} width="100">
-              <Image src={Clock} alt="Logo" width="17" height="15" />
+              <Image src={Clock} alt="Logo" width="30" height="25" />
             </th>
           </thead>
           <tbody>
