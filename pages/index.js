@@ -97,25 +97,368 @@ export default function Home() {
             <th width="40" style={{ fontWeight: 'normal' }}>
               #
             </th>
-            <th style={{ fontWeight: 'normal' }} width="310">
+            <th style={{ fontWeight: 'normal', textAlign: 'left' }} width="310">
               TÍTULO
             </th>
-            <th style={{ fontWeight: 'normal' }} width="310">
+            <th style={{ fontWeight: 'normal', textAlign: 'left' }} width="310">
               ÁLBUM
             </th>
-            <th style={{ fontWeight: 'normal' }} width="310">
+            <th style={{ fontWeight: 'normal', textAlign: 'left' }} width="310">
               DATA ADICIONADA
             </th>
+            <th style={{ fontWeight: 'normal', textAlign: 'left' }} width="100">
+              CLOCK
+            </th>
           </thead>
-          <tr>
-            <td colSpan="5">
-              <hr
-                width="965"
-                colSpan="5"
-                style={{ marginTop: '6px', border: '0.1px solid #262626' }}
-              />
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <td colSpan="5">
+                <hr
+                  width="965"
+                  colSpan="5"
+                  style={{ marginTop: '6px', border: '0.1px solid #262626' }}
+                />
+              </td>
+            </tr>
+            <br />
+            <tr>
+              <td style={{ textAlign: 'center' }}>1</td>{' '}
+              <td>
+                <Image src={Album} alt="Logo" width="38" height="41" />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontSize: '15px',
+                    color: 'white',
+                    marginTop: '-40px',
+                    marginLeft: '48px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      color: 'white',
+                      marginLeft: '3px',
+                      marginTop: '-2px',
+                    }}
+                  >
+                    Chalice of Tagirion
+                  </span>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: '#8c8c8c',
+                      marginLeft: '-117px',
+                      marginTop: '20px',
+                    }}
+                  >
+                    Mephorast
+                  </span>
+                </div>
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                Chalice of Tagirion
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                há 6 dias
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                5:24
+              </td>
+            </tr>
+            <br />
+            <tr>
+              <td style={{ textAlign: 'center' }}>2</td>{' '}
+              <td>
+                <Image src={Album} alt="Logo" width="38" height="41" />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontSize: '15px',
+                    color: 'white',
+                    marginTop: '-40px',
+                    marginLeft: '48px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      color: 'white',
+                      marginLeft: '3px',
+                      marginTop: '-2px',
+                    }}
+                  >
+                    Chalice of Tagirion
+                  </span>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: '#8c8c8c',
+                      marginLeft: '-117px',
+                      marginTop: '20px',
+                    }}
+                  >
+                    Mephorast
+                  </span>
+                </div>
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                Chalice of Tagirion
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                há 6 dias
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                5:24
+              </td>
+            </tr>
+
+            <br />
+            <tr>
+              <td style={{ textAlign: 'center' }}>3</td>{' '}
+              <td>
+                <Image src={Album} alt="Logo" width="38" height="41" />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontSize: '15px',
+                    color: 'white',
+                    marginTop: '-40px',
+                    marginLeft: '48px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      color: 'white',
+                      marginLeft: '3px',
+                      marginTop: '-2px',
+                    }}
+                  >
+                    Chalice of Tagirion
+                  </span>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: '#8c8c8c',
+                      marginLeft: '-117px',
+                      marginTop: '20px',
+                    }}
+                  >
+                    Mephorast
+                  </span>
+                </div>
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                Chalice of Tagirion
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                há 6 dias
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                5:24
+              </td>
+            </tr>
+
+            <br />
+            <tr>
+              <td style={{ textAlign: 'center' }}>4</td>{' '}
+              <td>
+                <Image src={Album} alt="Logo" width="38" height="41" />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontSize: '15px',
+                    color: 'white',
+                    marginTop: '-40px',
+                    marginLeft: '48px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      color: 'white',
+                      marginLeft: '3px',
+                      marginTop: '-2px',
+                    }}
+                  >
+                    Chalice of Tagirion
+                  </span>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: '#8c8c8c',
+                      marginLeft: '-117px',
+                      marginTop: '20px',
+                    }}
+                  >
+                    Mephorast
+                  </span>
+                </div>
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                Chalice of Tagirion
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                há 6 dias
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                5:24
+              </td>
+            </tr>
+
+            <br />
+            <tr>
+              <td style={{ textAlign: 'center' }}>5</td>{' '}
+              <td>
+                <Image src={Album} alt="Logo" width="38" height="41" />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontSize: '15px',
+                    color: 'white',
+                    marginTop: '-40px',
+                    marginLeft: '48px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: '14px',
+                      color: 'white',
+                      marginLeft: '3px',
+                      marginTop: '-2px',
+                    }}
+                  >
+                    Chalice of Tagirion
+                  </span>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: '#8c8c8c',
+                      marginLeft: '-117px',
+                      marginTop: '20px',
+                    }}
+                  >
+                    Mephorast
+                  </span>
+                </div>
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                Chalice of Tagirion
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                há 6 dias
+              </td>
+              <td
+                style={{
+                  fontSize: '15px',
+                  color: '#8c8c8c',
+                  // marginLeft: '-117px',
+                  marginTop: '20px',
+                }}
+              >
+                5:24
+              </td>
+            </tr>
+          </tbody>
         </table>
       </ContainerImage>
     </div>
