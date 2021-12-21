@@ -90,9 +90,9 @@ export default function Home() {
         >
           <span>...</span>
         </div>
-        <table width="980px" style={{ color: '#b3b3b3', marginTop: '50px' }}>
+        <table width="980px" style={{ color: '#8c8c8c', marginTop: '50px' }}>
           <thead
-            style={{ color: '#b3b3b3', width: '100%', fontSize: '13px', fontWeight: 'normal' }}
+            style={{ color: '#8c8c8c', width: '100%', fontSize: '13px', fontWeight: 'normal' }}
           >
             <th width="40" style={{ fontWeight: 'normal' }}>
               #
@@ -106,6 +106,11 @@ export default function Home() {
             <th style={{ fontWeight: 'normal' }} width="310">
               DATA ADICIONADA
             </th>
+            <tr>
+              <th colSpan="4">
+                <hr width="965" colSpan="4" style={{ border: '0.1px solid #262626' }} />
+              </th>
+            </tr>
           </thead>
         </table>
       </ContainerImage>
