@@ -109,7 +109,11 @@ export default function Home() {
           </thead>
           <tr>
             <td colSpan="5">
-              <hr width="965" colSpan="5" style={{ border: '0.1px solid #262626' }} />
+              <hr
+                width="965"
+                colSpan="5"
+                style={{ marginTop: '6px', border: '0.1px solid #262626' }}
+              />
             </td>
           </tr>
         </table>
