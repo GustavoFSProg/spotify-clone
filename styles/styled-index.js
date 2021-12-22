@@ -4,8 +4,8 @@ import Image from 'next/image'
 export const ContainerImage = styled.div`
   margin-left: 293px;
   margin-top: -492px;
-  transition: 0.2s;
-  transform: scale(1);
+  /* transition: 0.2s;
+  transform: scale(1); */
   width: 65px;
   border-radius: 100%;
 
@@ -14,14 +14,22 @@ export const ContainerImage = styled.div`
     transform: scale(1);
   }
 `
+export const PlayButton = styled.div`
+  margin-top: -492px;
+  transition: 0.2s;
+  /* transform: scale(1); */
+  width: 65px;
+  border-radius: 100%;
+
+  :hover {
+    background: #008000;
+  }
+`
 export const Imagem = styled.image`
   transition: ease 0.1s;
-  transform: scale(1);
   background: green;
 
   :hover {
     width: 9999999px;
-    background: red;
-    transform: scale(1);
   }
 `

@@ -5,7 +5,7 @@ import Album from '../public/album-image.jpg'
 import Clock from '../public/circulo.png'
 import Play from '../public/play-button.png'
 import Image from 'next/image'
-import { ContainerImage } from '../styles/styled-index'
+import { ContainerImage, PlayButton } from '../styles/styled-index'
 
 export default function Home() {
   return (
@@ -79,7 +79,9 @@ export default function Home() {
         </div>
       </div>
       <ContainerImage>
-        <Image src={Play} alt="play-button" width="72" height="66" />
+        <PlayButton>
+          <Image src={Play} alt="play-button" width="72" height="66" />
+        </PlayButton>
         <div
           style={{
             color: '#b3b3b3',
@@ -462,6 +464,7 @@ export default function Home() {
           </tbody>
         </table>
       </ContainerImage>
+      <footer style={{ color: 'white' }}>asdfasfasdf</footer>
     </div>
   )
 }
