@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 export const ContainerImage = styled.div`
-  margin-left: 293px;
+  margin-left: 443px;
   margin-top: -492px;
   /* transition: 0.2s;
   transform: scale(1); */

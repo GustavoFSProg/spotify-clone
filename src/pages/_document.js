@@ -1,16 +1,14 @@
 /* eslint-disable @next/next/no-title-in-document-head */
-// eslint-disable-next-line @next/next/no-document-import-in-page
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main, Html, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
-    // Returns an object like: { html, head, errorHtml, chunks, styles }
     return renderPage()
   }
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <title>Sptfy - Clone</title>
         </Head>
@@ -18,7 +16,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }
