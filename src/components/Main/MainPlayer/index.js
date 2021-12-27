@@ -1,11 +1,5 @@
 import { MainPlayerContainer } from './styles'
 
-const MainPlayer = () => (
-  <MainPlayerContainer>
-    asdsada
-    <br />
-    asdsad
-  </MainPlayerContainer>
-)
+const MainPlayer = () => <MainPlayerContainer>Implement main player</MainPlayerContainer>
 
 export default MainPlayer

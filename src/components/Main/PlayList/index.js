@@ -1,54 +1,57 @@
 import { memo } from 'react'
 import Image from 'next/image'
-import styled from 'styled-components'
 
-import image from '/public/images/album-image.jpg'
+import { SectionPlayList, Grid, Column, Row, Title, P, Pm, ImgContainer } from './styles'
+import { playListData } from './playListData'
 
-export const SectionPlayList = styled.section``
+const PlLine = ({ index, image, song, artist, album, dateAdded, favorite, duration }) => (
+  <Grid>
+    <Pm>{index}</Pm>
 
-export const PlHeader = styled.header``
-export const PlRow = styled.div`
-  display: flex;
-  /* grid-template-columns: 16px 6fr 4fr 3fr minmax(120px, 1fr); */
-`
-
-const PlLine = ({ key, image, song, artist, album, dateAdded, favorite, duration }) => (
-  <PlRow>
-    <div>{key}</div>
-
-    <div>
-      <Image src={image} alt={album} />
-      <div>
+    <Row>
+      <ImgContainer>
+        <Image src={image} alt={album} height={40} width={40} />
+      </ImgContainer>
+      <Column>
         <div>{song}</div>
-        <div>{artist}</div>
-      </div>
-    </div>
+        <P>{artist}</P>
+      </Column>
+    </Row>
 
-    <div>{album}</div>
+    <P>{album}</P>
 
-    <div>{dateAdded}</div>
+    <P>{dateAdded}</P>
 
-    <div>
-      {favorite && '<3'} {duration}
-    </div>
-  </PlRow>
+    <P>
+      {favorite && 'heart'} {duration}
+    </P>
+  </Grid>
 )
 
 const PlayList = () => {
   return (
     <SectionPlayList>
-      <PlHeader># TITLE ALBUM DATE ADDED TIME-ICON</PlHeader>
+      <Grid isHeader>
+        <Title>#</Title>
+        <Title>TITLE</Title>
+        <Title>ALBUM</Title>
+        <Title>DATE ADDED</Title>
+        <Title>CLOCK</Title>
+      </Grid>
 
-      <PlLine
-        key={12}
-        image={image}
-        song="Fake Plastic Trees"
-        artist="Radiohead"
-        album="The Bends"
-        dateAdded="Feb 28, 2019"
-        favorite={true}
-        duration="4:14"
-      />
+      {playListData.map((l, i) => (
+        <PlLine
+          key={i}
+          index={i + 1}
+          image={l.image}
+          song={l.song}
+          artist={l.artist}
+          album={l.album}
+          dateAdded={l.dateAdded}
+          favorite={l.favorite}
+          duration={l.duration}
+        />
+      ))}
     </SectionPlayList>
   )
 }

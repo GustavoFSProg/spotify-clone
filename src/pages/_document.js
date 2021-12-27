@@ -8,9 +8,9 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          <title>Sptfy - Clone</title>
+          <title>Spotify - Clone</title>
         </Head>
         <body>
           <Main />

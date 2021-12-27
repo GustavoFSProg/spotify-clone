@@ -1,11 +1,5 @@
 import { SectionHeader } from './styles'
 
-const Header = () => (
-  <SectionHeader>
-    asdsada
-    <br />
-    asdsad
-  </SectionHeader>
-)
+const Header = () => <SectionHeader>Implement header section</SectionHeader>
 
 export default Header
