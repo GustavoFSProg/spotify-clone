@@ -25,4 +25,11 @@ export const playLists = [
   { title: 'Playlists names...' },
   { title: 'Playlists names...' },
   { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
+  { title: 'Playlists names...' },
 ]
