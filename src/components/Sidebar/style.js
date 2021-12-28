@@ -7,13 +7,14 @@ export const SidebarContainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
-  width: 230px;
+  width: 346px;
   padding: 1rem;
   padding-left: 1.5rem;
 `
 export const ImageContainer = styled.div`
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  margin-left: 8px;
 `
 
 export const Divider = styled.hr`
@@ -46,6 +47,7 @@ export const PlayList = styled.p`
   font-size: 0.8rem;
   color: #999999;
   transition: color ease 0.2s;
+  margin-left: 15px;
 
   :hover {
     color: #ffffff;

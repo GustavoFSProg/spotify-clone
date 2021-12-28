@@ -11,18 +11,20 @@ const Sidebar = () => (
     <ImageContainer>
       <Image src={Logo} alt="Logo" width="128" height="37" />
     </ImageContainer>
-
-    {buttons.map((b) => (
-      <Button key={b.title} onClick={b.onClick} Icon={b.Icon} title={b.title} />
-    ))}
+    <div style={{ marginLeft: '12px' }}>
+      {buttons.map((b) => (
+        <Button key={b.title} onClick={b.onClick} Icon={b.Icon} title={b.title} />
+      ))}
+    </div>
 
     <Divider />
-
+    {/* <div style={{ marginLeft: '12px' }}> */}
     <PlayLists>
       {playLists.map((p, i) => (
         <PlayList key={i}>{p.title}</PlayList>
       ))}
     </PlayLists>
+    {/* </div> */}
   </SidebarContainer>
 )
 
