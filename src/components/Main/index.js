@@ -31,7 +31,7 @@ const Main = () => (
       </div>
     </SectionHeader>
     <div style={{ marginLeft: '30px', marginTop: '-5px', marginBottom: '30px' }}>
-      <Image width="80" height="72" src={Play} alt="play-button"></Image>
+      <Image width="80" height="78" src={Play} alt="play-button"></Image>
     </div>
     <PlayList />
   </MainContainer>
