@@ -18,7 +18,6 @@ const Sidebar = () => (
     </div>
 
     <Divider />
-    {/* <div style={{ marginLeft: '12px' }}> */}
     <PlayLists>
       {playLists.map((p, i) => (
         <PlayList key={i}>{p.title}</PlayList>

@@ -1,15 +1,14 @@
-import Header from './Header'
 import { SectionHeader } from './Header/styles'
-import MainPlayer from './MainPlayer'
 import PlayList from './PlayList'
 import { MainContainer } from './styles'
 import Image from 'next/image'
 import image from '/public/images/album-image.jpg'
+import Play from '/public/images/play-button.png'
 
 const Main = () => (
   <MainContainer>
     <SectionHeader>
-      <div style={{ marginTop: '60px', marginLeft: '15px' }}>
+      <div style={{ marginTop: '60px', marginLeft: '10px' }}>
         <Image src={image} alt="imagem" width="190" height="210" />
         <div
           style={{
@@ -31,7 +30,9 @@ const Main = () => (
         </div>
       </div>
     </SectionHeader>
-    <MainPlayer />
+    <div style={{ marginLeft: '30px', marginTop: '-5px', marginBottom: '30px' }}>
+      <Image width="80" height="72" src={Play} alt="play-button"></Image>
+    </div>
     <PlayList />
   </MainContainer>
 )
