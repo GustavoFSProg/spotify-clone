@@ -2,11 +2,34 @@
 
 import { PlayerContainer } from './styles'
 import { CgPlayButtonO } from 'react-icons/cg'
+import { CgPlayTrackPrev } from 'react-icons/cg'
+import { CgPlayTrackNext } from 'react-icons/cg'
+import { BiRedo } from 'react-icons/bi'
 
 const Player = () => (
   <PlayerContainer>
-    <div style={{ marginRight: '13px', marginTop: '7px' }}>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginRight: '13px',
+        marginTop: '7px',
+      }}
+    >
+      <div style={{ marginRight: '10px', marginTop: '8px' }}>
+        <CgPlayTrackPrev size="25" color="#a6a6a6" />
+      </div>
+
       <CgPlayButtonO size="36" />
+
+      <div style={{ marginLeft: '10px', marginTop: '8px' }}>
+        <CgPlayTrackNext size="25" color="#a6a6a6" />
+      </div>
+
+      <div style={{ marginLeft: '15px', marginTop: '8px' }}>
+        <BiRedo size="21" color="#a6a6a6" />
+      </div>
     </div>
     <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-3px' }}>
       <span style={{ color: '#bfbfbf', fontSize: '13.2px', marginTop: '6px', marginRight: '7px' }}>
