@@ -2,11 +2,11 @@
 
 import { PlayerContainer } from './styles'
 import Image from 'next/image'
-import Play from '../../../../public/images/play-button-display.png'
+import Play from '../../../../public/images/button-play.png'
 
 const Player = () => (
   <PlayerContainer>
-    <Image src={Play} alt="play-button" width="30" height="30" />
+    <Image src={Play} alt="play-button" width="40" height="30" />
     <div
       style={{
         background: '#595959',
