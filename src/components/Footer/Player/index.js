@@ -1,13 +1,14 @@
 // import { memo } from 'react'
 
 import { PlayerContainer } from './styles'
-import Image from 'next/image'
-import Play from '../../../../public/images/button-play.png'
+import { CgPlayButtonO } from 'react-icons/cg'
 
 const Player = () => (
   <PlayerContainer>
-    <Image src={Play} alt="play-button" width="40" height="30" />
-    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '6px' }}>
+    <div style={{ marginRight: '13px', marginTop: '7px' }}>
+      <CgPlayButtonO size="36" />
+    </div>
+    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-3px' }}>
       <span style={{ color: '#bfbfbf', fontSize: '13.2px', marginTop: '6px', marginRight: '7px' }}>
         1:35
       </span>

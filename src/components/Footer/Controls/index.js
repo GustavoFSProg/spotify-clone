@@ -3,19 +3,21 @@ import { memo } from 'react'
 import Microfone from '../../../../public/images/microfone.jpg'
 import { FaElementor } from 'react-icons/fa'
 import { AiOutlineSound } from 'react-icons/ai'
+import { BiMicrophone } from 'react-icons/bi'
+import { FiFileMinus } from 'react-icons/fi'
 
 import { ControlsContainer } from './styles'
 
 const Controls = () => (
   <ControlsContainer>
-    <div style={{ marginRight: '15px', marginTop: '4px' }}>
-      <Image src={Microfone} alt="imagem" width="19" height="19" />
+    <div style={{ marginRight: '13px', marginTop: '4px' }}>
+      <BiMicrophone width="16" height="19" />
     </div>
-    <div style={{ marginRight: '15px', marginTop: '4px' }}>
-      <FaElementor size="19" />
+    <div style={{ marginRight: '13px', marginTop: '4px' }}>
+      <FiFileMinus size="16" />
     </div>
-    <div style={{ marginRight: '15px', marginTop: '4px' }}>
-      <AiOutlineSound size="19" />
+    <div style={{ marginRight: '13px', marginTop: '4px' }}>
+      <AiOutlineSound size="16" />
     </div>
     <div
       style={{
