@@ -11,18 +11,17 @@ const Player = () => (
       style={{
         background: '#595959',
         borderRadius: '20px',
-        width: '380px',
+        width: '420px',
         marginTop: '15px',
-        height: '5px',
+        height: '4px',
       }}
     >
       <div
         style={{
           background: '#bfbfbf',
           borderRadius: '20px',
-
           width: '100px',
-          height: '5px',
+          height: '4px',
         }}
       ></div>
     </div>

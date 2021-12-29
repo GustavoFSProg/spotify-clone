@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const PlayerContainer = styled.div`
-  border: 1px dashed darkgray;
+  /* border: 1px dashed darkgray; */
   display: flex;
   flex-direction: column;
   justify-content: center;
