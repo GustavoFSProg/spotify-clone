@@ -5,4 +5,5 @@ export const SectionHeader = styled.section`
   height: 340px;
   width: 100%;
   padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #4d0000 30%, transparent 75%);
 `
