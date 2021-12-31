@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import Image from 'next/image'
+import { HeartIcon } from '@heroicons/react/outline'
 
 import { SectionPlayList, Grid, Column, Row, Title, P, Pm, ImgContainer } from './styles'
 import { playListData } from './playListData'
@@ -22,8 +23,9 @@ const PlLine = ({ index, image, song, artist, album, dateAdded, favorite, durati
 
     <P>{dateAdded}</P>
 
-    <P>
-      {favorite && 'heart'} {duration}
+    <P style={{ display: 'flex', justifyContent: 'left', alingItems: 'center' }}>
+      <HeartIcon stroke="#b3b3b3" width="17" style={{ marginRight: '18px' }} />
+      {duration}
     </P>
   </Grid>
 )

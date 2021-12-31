@@ -1,3 +1,4 @@
+import { HeartIcon } from '@heroicons/react/outline'
 import image from '/public/images/album-image.jpg'
 
 export const playListData = [
