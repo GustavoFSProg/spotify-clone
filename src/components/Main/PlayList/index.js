@@ -1,6 +1,7 @@
 import { memo } from 'react'
 import Image from 'next/image'
 import { HeartIcon } from '@heroicons/react/outline'
+import { AiOutlineClockCircle } from 'react-icons/ai'
 
 import { SectionPlayList, Grid, Column, Row, Title, P, Pm, ImgContainer } from './styles'
 import { playListData } from './playListData'
@@ -38,7 +39,9 @@ const PlayList = () => {
         <Title>TITLE</Title>
         <Title>ALBUM</Title>
         <Title>DATE ADDED</Title>
-        <Title>CLOCK</Title>
+        <Title style={{ textAlign: 'right', width: '62px' }}>
+          <AiOutlineClockCircle size="17" />
+        </Title>
       </Grid>
 
       {playListData.map((l, i) => (
